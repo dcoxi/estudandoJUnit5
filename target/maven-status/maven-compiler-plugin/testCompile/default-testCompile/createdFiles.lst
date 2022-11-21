@@ -1,1 +1,5 @@
+assertTrue\AssertTrueDemo.class
+assertArrays\AssertArrayDemo.class
 anotation\TestAnnotationDemo.class
+assertFalse\AssertFalseDemo.class
+assertNull\AssertNullDemo.class

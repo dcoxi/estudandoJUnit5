@@ -57,7 +57,7 @@ public class AssertFalseDemo {
                 new BookModel("2", "Head First Java", "Wrox")
         );
 
-        assertFalse(() -> listBooks.isEmpty(), () -> "Lista de livros não esta vázia!");
+        assertFalse(listBooks.isEmpty(), () -> "Lista de livros não esta vázia!");
 
     }
 }

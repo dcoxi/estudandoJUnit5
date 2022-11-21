@@ -31,7 +31,7 @@ public class BookService {
     public String[] getBookIdsByPublisher(String publisher){
         List<String> bookIds = new ArrayList<>();
         for(BookModel book : listBook){
-            if(publisher.equals(book.getPublisher()))
+            if(publisher.equalsIgnoreCase(book.getPublisher()))
                 bookIds.add(book.getId());
         }
         return bookIds.toArray(new String[bookIds.size()]);

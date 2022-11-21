@@ -6,13 +6,12 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-public class AssertArrayDemo {
+ class AssertArrayDemo {
 
     private BookService service;
 
     @Test
     void assertWithNoMessage(){
-        service = new BookService();
         service = new BookService();
         BookModel heabFirstJavaBook = new BookModel("1","Head First Java","Wrox");
         BookModel heabFirstDesignPatternBook = new BookModel("2","Head First Design Pattern","Packt");
@@ -20,6 +19,7 @@ public class AssertArrayDemo {
 
         service.addBooks(heabFirstJavaBook);
         service.addBooks(heabFirstDesignPatternBook);
+        service.addBooks(heabFirstJavaScript);
 
         String[] result = service.getBookIdsByPublisher("Wrox");
         assertArrayEquals(new String[] {"1","3"},result);
