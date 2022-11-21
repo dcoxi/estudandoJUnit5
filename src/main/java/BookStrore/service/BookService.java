@@ -1,5 +1,6 @@
 package BookStrore.service;
 
+import BookStrore.exception.BookNotFoundException;
 import BookStrore.model.BookModel;
 
 import java.util.ArrayList;
@@ -44,5 +45,13 @@ public class BookService {
                 bookIds.add(book.getTitle());
         }
         return bookIds;
+    }
+
+    public BookModel getBookByTitle(String title){
+        for(BookModel book : listBook){
+            if(title.equals(book.getTitle()))
+                return book;
+        }
+        throw new BookNotFoundException("Book not found in Bookstore");
     }
 }

@@ -11,8 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7482f38c-faef-4ab2-887e-25f56f78a4f4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/assertTimeoutPreemptively/assertTimeoutPreemptivelyDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BookStrore/exception/BookNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/assertThrows/assertThrowsDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/e/fe327279c1599170b4c7c0ce7eb96d50d8faf7b2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BookStrore/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BookStrore/service/BookService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,24 +110,7 @@
       <recent name="C:\Users\dilangue.coxi\Documents\anotações\junit5\estudandoJUnit5\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.assertTimeoutPreemptivelyDemo.assertTimeoutWithMessage">
-    <configuration name="AssertArrayDemo.assertWithNoMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="estudandoJUnit5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="assertArrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="assertArrays" />
-      <option name="MAIN_CLASS_NAME" value="assertArrays.AssertArrayDemo" />
-      <option name="METHOD_NAME" value="assertWithNoMessage" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BSP.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.assertThrowsDemo.assertThrowsWithNoMessage">
     <configuration name="AssertTimeOutDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="estudandoJUnit5" />
       <extension name="coverage">
@@ -181,6 +168,23 @@
         <option name="BSP.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="assertThrowsDemo.assertThrowsWithNoMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="estudandoJUnit5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="assertThrows.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="assertThrows" />
+      <option name="MAIN_CLASS_NAME" value="assertThrows.assertThrowsDemo" />
+      <option name="METHOD_NAME" value="assertThrowsWithNoMessage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="assertTimeoutPreemptivelyDemo.assertTimeoutWithMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="estudandoJUnit5" />
       <extension name="coverage">
@@ -200,11 +204,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.assertThrowsDemo.assertThrowsWithNoMessage" />
         <item itemvalue="JUnit.assertTimeoutPreemptivelyDemo.assertTimeoutWithMessage" />
         <item itemvalue="JUnit.AssertTimeOutDemo.assertTimeoutWithMessage" />
         <item itemvalue="JUnit.AssertTimeOutDemo.assertTimeoutWithNoMessage" />
         <item itemvalue="JUnit.AssertTimeOutDemo" />
-        <item itemvalue="JUnit.AssertArrayDemo.assertWithNoMessage" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +224,7 @@
       <updated>1668777601692</updated>
       <workItem from="1668777603138" duration="1011000" />
       <workItem from="1668778696185" duration="17411000" />
-      <workItem from="1669027874616" duration="7541000" />
+      <workItem from="1669027874616" duration="9694000" />
     </task>
     <servers />
   </component>
@@ -267,22 +271,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="154" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1668778046851" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1669046782348">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1669047296142">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669046782348" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1669046782348">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669047296142" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1669047296142">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669046782348" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1669046782348">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669047296142" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1669047296142">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669046782348" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1669046782348">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669047296142" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1669047296142">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669046782348" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669047296142" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1669037507984">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -342,8 +346,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/BookStrore/service/BookService.java</url>
-          <line>33</line>
+          <line>34</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/assertThrows/assertThrowsDemo.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
