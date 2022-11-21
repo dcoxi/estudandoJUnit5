@@ -18,4 +18,22 @@ public class BookService {
     public List<BookModel> books(){
         return Collections.unmodifiableList(listBook);
     }
+
+    public BookModel getBookById(String Id){
+        BookModel bookModel = new BookModel()   ;
+        for(BookModel book : listBook){
+            if(Id.equals(book.getId()))
+                bookModel = book;
+        }
+        return  bookModel;
+    }
+
+    public String[] getBookIdsByPublisher(String publisher){
+        List<String> bookIds = new ArrayList<>();
+        for(BookModel book : listBook){
+            if(publisher.equals(book.getPublisher()))
+                bookIds.add(book.getId());
+        }
+        return bookIds.toArray(new String[bookIds.size()]);
+    }
 }
