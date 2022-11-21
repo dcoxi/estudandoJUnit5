@@ -58,6 +58,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/assertTimeoutPreemptively/assertTimeoutPreemptivelyDemo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/test/java/assertTrue/AssertTrueDemo.java">
           <value>
             <set />

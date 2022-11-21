@@ -11,11 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7482f38c-faef-4ab2-887e-25f56f78a4f4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/assertTimeout/AssertTimeOutDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/assertTimeoutPreemptively/assertTimeoutPreemptivelyDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BookStrore/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BookStrore/service/BookService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/BookStrore/service/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BookStrore/service/BookService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/assertArrays/AssertArrayDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/assertArrays/AssertArrayDemo.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +106,7 @@
       <recent name="C:\Users\dilangue.coxi\Documents\anotações\junit5\estudandoJUnit5\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AssertTimeOutDemo.assertTimeoutWithNoMessage">
+  <component name="RunManager" selected="JUnit.assertTimeoutPreemptivelyDemo.assertTimeoutWithMessage">
     <configuration name="AssertArrayDemo.assertWithNoMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="estudandoJUnit5" />
       <extension name="coverage">
@@ -127,17 +124,34 @@
         <option name="BSP.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AssertFalseDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AssertTimeOutDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="estudandoJUnit5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="assertFalse.*" />
+          <option name="PATTERN" value="assertTimeout.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="assertFalse" />
-      <option name="MAIN_CLASS_NAME" value="assertFalse.AssertFalseDemo" />
+      <option name="PACKAGE_NAME" value="assertTimeout" />
+      <option name="MAIN_CLASS_NAME" value="assertTimeout.AssertTimeOutDemo" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AssertTimeOutDemo.assertTimeoutWithMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="estudandoJUnit5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="assertTimeout.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="assertTimeout" />
+      <option name="MAIN_CLASS_NAME" value="assertTimeout.AssertTimeOutDemo" />
+      <option name="METHOD_NAME" value="assertTimeoutWithMessage" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BSP.BeforeRunTask" enabled="true" />
@@ -160,39 +174,6 @@
         <option name="BSP.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AssertTrueDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="estudandoJUnit5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="assertTrue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="assertTrue" />
-      <option name="MAIN_CLASS_NAME" value="assertTrue.AssertTrueDemo" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BSP.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AssertTrueDemo.assertTrueWithCostumMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="estudandoJUnit5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="assertTrue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="assertTrue" />
-      <option name="MAIN_CLASS_NAME" value="assertTrue.AssertTrueDemo" />
-      <option name="METHOD_NAME" value="assertTrueWithCostumMessage" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BSP.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
@@ -200,13 +181,30 @@
         <option name="BSP.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="assertTimeoutPreemptivelyDemo.assertTimeoutWithMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="estudandoJUnit5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="assertTimeoutPreemptively.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="assertTimeoutPreemptively" />
+      <option name="MAIN_CLASS_NAME" value="assertTimeoutPreemptively.assertTimeoutPreemptivelyDemo" />
+      <option name="METHOD_NAME" value="assertTimeoutWithMessage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.assertTimeoutPreemptivelyDemo.assertTimeoutWithMessage" />
+        <item itemvalue="JUnit.AssertTimeOutDemo.assertTimeoutWithMessage" />
         <item itemvalue="JUnit.AssertTimeOutDemo.assertTimeoutWithNoMessage" />
+        <item itemvalue="JUnit.AssertTimeOutDemo" />
         <item itemvalue="JUnit.AssertArrayDemo.assertWithNoMessage" />
-        <item itemvalue="JUnit.AssertFalseDemo" />
-        <item itemvalue="JUnit.AssertTrueDemo" />
-        <item itemvalue="JUnit.AssertTrueDemo.assertTrueWithCostumMessage" />
       </list>
     </recent_temporary>
   </component>
@@ -222,7 +220,7 @@
       <updated>1668777601692</updated>
       <workItem from="1668777603138" duration="1011000" />
       <workItem from="1668778696185" duration="17411000" />
-      <workItem from="1669027874616" duration="4427000" />
+      <workItem from="1669027874616" duration="7541000" />
     </task>
     <servers />
   </component>
@@ -269,22 +267,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="154" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1668778046851" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1669042632923">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1669046782348">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669042632923" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1669042632923">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669046782348" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1669046782348">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669042632923" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1669042632923">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669046782348" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1669046782348">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669042632923" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1669042632923">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669046782348" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1669046782348">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669042632923" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669046782348" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1669037507984">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
