@@ -36,4 +36,13 @@ public class BookService {
         }
         return bookIds.toArray(new String[bookIds.size()]);
     }
+
+    public List<String> getBookTitlesByPublisher(String publisher){
+        List<String> bookIds = new ArrayList<>();
+        for(BookModel book : listBook){
+            if(publisher.equalsIgnoreCase(book.getPublisher()))
+                bookIds.add(book.getTitle());
+        }
+        return bookIds;
+    }
 }
