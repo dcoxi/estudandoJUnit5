@@ -10,7 +10,22 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7482f38c-faef-4ab2-887e-25f56f78a4f4" name="Default Changelist" comment="" />
+    <list default="true" id="7482f38c-faef-4ab2-887e-25f56f78a4f4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Disable/DisabledDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/6/4696342d74de3369ed510d0fe0711d291ceb797e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sonarIssues.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/assertTimeout/AssertTimeOutDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/assertTimeout/AssertTimeOutDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/assertTimeoutPreemptively/assertTimeoutPreemptivelyDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/assertTimeoutPreemptively/assertTimeoutPreemptivelyDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/displayName/DisplayNameDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/displayName/DisplayNameDemo.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,6 +75,11 @@
       </RecentBranches>
     </option>
   </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="JUnit" name="DisabledDemo" />
+    </enabled-run-configurations>
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
@@ -103,36 +123,34 @@
       <recent name="C:\Users\dilangue.coxi\Documents\anotações\junit5\estudandoJUnit5\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DisplayNameDemo.displayNameDemoTest">
-    <configuration name="AssertTimeOutDemo.assertTimeoutWithMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DisabledDemo">
+    <configuration name="DisabledDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="estudandoJUnit5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="assertTimeout.*" />
+          <option name="PATTERN" value="Disable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="assertTimeout" />
-      <option name="MAIN_CLASS_NAME" value="assertTimeout.AssertTimeOutDemo" />
-      <option name="METHOD_NAME" value="assertTimeoutWithMessage" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="Disable" />
+      <option name="MAIN_CLASS_NAME" value="Disable.DisabledDemo" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BSP.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AssertTimeOutDemo.assertTimeoutWithNoMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DisplayNameDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="estudandoJUnit5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="assertTimeout.*" />
+          <option name="PATTERN" value="displayName.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="assertTimeout" />
-      <option name="MAIN_CLASS_NAME" value="assertTimeout.AssertTimeOutDemo" />
-      <option name="METHOD_NAME" value="assertTimeoutWithNoMessage" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="displayName" />
+      <option name="MAIN_CLASS_NAME" value="displayName.DisplayNameDemo" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BSP.BeforeRunTask" enabled="true" />
@@ -198,11 +216,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DisabledDemo" />
+        <item itemvalue="JUnit.DisplayNameDemo" />
         <item itemvalue="JUnit.DisplayNameDemo.displayNameDemoTest" />
         <item itemvalue="JUnit.assertThrowsDemo.assertThrowsWithNoMessage" />
         <item itemvalue="JUnit.assertTimeoutPreemptivelyDemo.assertTimeoutWithMessage" />
-        <item itemvalue="JUnit.AssertTimeOutDemo.assertTimeoutWithMessage" />
-        <item itemvalue="JUnit.AssertTimeOutDemo.assertTimeoutWithNoMessage" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +238,7 @@
       <workItem from="1668778696185" duration="17411000" />
       <workItem from="1669027874616" duration="10671000" />
       <workItem from="1669123423377" duration="14000" />
-      <workItem from="1669128220596" duration="309000" />
+      <workItem from="1669128220596" duration="2641000" />
     </task>
     <servers />
   </component>
@@ -267,38 +285,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="154" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1668778046851" />
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1669049645468">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1669130661389">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669049645468" />
-    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1669049645468">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669130661389" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1669130661389">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669049645468" />
-    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1669049645467">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669130661389" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1669130661389">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669049645467" />
-    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1669049645468">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669130661389" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1669130661389">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669049645468" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1669049645468">
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669130661389" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1669129910502">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669049645468" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1669049645468">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669129910502" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1669129910501">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669049645468" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1669049645468">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669129910501" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1669129910501">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669049645468" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1669049645468">
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669129910501" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1669129910501">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669049645468" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669129910501" />
     <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1668786724256">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

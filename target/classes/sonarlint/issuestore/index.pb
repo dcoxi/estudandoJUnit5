@@ -7,5 +7,3 @@ _
 /src/test/java/anotation/TestAnnotationDemo.java,4\4\44edd74a79581571f4d148972f8280aaf8e0bf8e
 N
 src/main/java/Application.java,c\0\c02b58f69e810278d2d423bdee557628145ed943
-\
-,src/test/java/assertNull/AssertNullDemo.java,4\6\4696342d74de3369ed510d0fe0711d291ceb797e

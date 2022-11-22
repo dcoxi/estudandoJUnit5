@@ -1,3 +1,4 @@
-BookStrore\model\BookModel.class
 main\java\Application.class
+BookStrore\model\BookModel.class
+BookStrore\exception\BookNotFoundException.class
 BookStrore\service\BookService.class

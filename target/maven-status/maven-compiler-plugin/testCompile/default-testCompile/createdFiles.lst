@@ -1,5 +1,10 @@
 assertTrue\AssertTrueDemo.class
 assertArrays\AssertArrayDemo.class
-anotation\TestAnnotationDemo.class
+assertThrows\assertThrowsDemo.class
+Disable\DisabledDemo.class
+displayName\DisplayNameDemo.class
 assertFalse\AssertFalseDemo.class
 assertNull\AssertNullDemo.class
+anotation\TestAnnotationDemo.class
+assertTimeout\AssertTimeOutDemo.class
+assertTimeoutPreemptively\assertTimeoutPreemptivelyDemo.class
