@@ -1,4 +1,4 @@
-package assertThrows;
+package anotation.assertThrows;
 
 import BookStrore.exception.BookNotFoundException;
 import BookStrore.model.BookModel;

@@ -1,4 +1,4 @@
-package assertArrays;
+package anotation.assertArrays;
 
 import BookStrore.model.BookModel;
 import BookStrore.service.BookService;

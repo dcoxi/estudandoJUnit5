@@ -1,4 +1,4 @@
-package displayName;
+package anotation.displayName;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
