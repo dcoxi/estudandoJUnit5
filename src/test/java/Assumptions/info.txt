@@ -1,0 +1,10 @@
+
+ - Assumptions são pre-condições que precisam ser cumpridas para executar os assertions
+ subsequentes em test;
+ - Se as condições definidas no assumptions não forem cumpridas, então sera retornada
+ uma excepção do tipo TestAbortedException e o test é pulado;
+ - Em comparação a falha nas assertions, uma falha na assumptions não resulta em uma falha no teste.
+ Em vez disso, uma Assumptions falha resulta em um teste sendo abortado;
+
+ Assumptions  --> Suposição
+ Assertions   --> Asserções
