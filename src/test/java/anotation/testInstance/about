@@ -1,0 +1,8 @@
+ JUnit5 disponibiliza a anotação @TestInstance para modificar o comportamento do ciclo de vida de uma
+ classe de test.
+ Essa anotação possui 2 modos:
+  - @TestInstance(Lifecycle.PER_METHOD) - se @TestInstance não é declarada em uma classe de test, o modo
+ do ciclo de vida sera implicitamente padronizada como PER_METHOD. Neste modo o  JUnit cria nova instância
+ da classe de test antes de executar cada método de test.
+  - @TestInstance(Lifecycle.PER_CLASS)  - neste modo o JUnit cria uma nova instância da classe de test uma
+  única vez.
