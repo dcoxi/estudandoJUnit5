@@ -11,12 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7482f38c-faef-4ab2-887e-25f56f78a4f4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/dev.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Assumptions/assumTrueMethod/AssumeTrueDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/dev.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/estudandoJUnit5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/estudandoJUnit5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Assumptions/assumeThatMethod/AssumingThatDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +26,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="Class" />
         <option value="XML Properties File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -116,9 +112,63 @@
       <recent name="C:\Users\dilangue.coxi\Documents\anotações\junit5\estudandoJUnit5\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AssumeTrueDemo.assumeTrueWithNoMessage">
+  <component name="RunManager" selected="JUnit.AssumingThatDemo.assumingThatWithNoMessage">
+    <configuration name="AssumeTrueDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="estudandoJUnit5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Assumptions.assumTrueMethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Assumptions.assumTrueMethod" />
+      <option name="MAIN_CLASS_NAME" value="Assumptions.assumTrueMethod.AssumeTrueDemo" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AssumeTrueDemo.assumeTrueWithMessage (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="estudandoJUnit5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Assumptions.assumTrueMethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Assumptions.assumTrueMethod" />
+      <option name="MAIN_CLASS_NAME" value="Assumptions.assumTrueMethod.AssumeTrueDemo" />
+      <option name="METHOD_NAME" value="assumeTrueWithMessage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AssumeTrueDemo.assumeTrueWithMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="estudandoJUnit5" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Assumptions.assumTrueMethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Assumptions.assumTrueMethod" />
+      <option name="MAIN_CLASS_NAME" value="Assumptions.assumTrueMethod.AssumeTrueDemo" />
+      <option name="METHOD_NAME" value="assumeTrueWithMessage" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea -DENV=DEV" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AssumeTrueDemo.assumeTrueWithNoMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="estudandoJUnit5" />
+      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Assumptions.assumTrueMethod.*" />
@@ -129,54 +179,24 @@
       <option name="MAIN_CLASS_NAME" value="Assumptions.assumTrueMethod.AssumeTrueDemo" />
       <option name="METHOD_NAME" value="assumeTrueWithNoMessage" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea -DENV=DEV" />
+      <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BSP.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DisabledDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AssumingThatDemo.assumingThatWithNoMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="estudandoJUnit5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Disable.*" />
+          <option name="PATTERN" value="Assumptions.assumeThatMethod.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Disable" />
-      <option name="MAIN_CLASS_NAME" value="Disable.DisabledDemo" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BSP.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DisplayNameDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="estudandoJUnit5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="displayName.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="displayName" />
-      <option name="MAIN_CLASS_NAME" value="displayName.DisplayNameDemo" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BSP.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DisplayNameDemo.displayNameDemoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="estudandoJUnit5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="displayName.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="displayName" />
-      <option name="MAIN_CLASS_NAME" value="displayName.DisplayNameDemo" />
-      <option name="METHOD_NAME" value="displayNameDemoTest" />
+      <option name="PACKAGE_NAME" value="Assumptions.assumeThatMethod" />
+      <option name="MAIN_CLASS_NAME" value="Assumptions.assumeThatMethod.AssumingThatDemo" />
+      <option name="METHOD_NAME" value="assumingThatWithNoMessage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -190,30 +210,13 @@
         <option name="BSP.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="assertThrowsDemo.assertThrowsWithNoMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="estudandoJUnit5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="assertThrows.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="assertThrows" />
-      <option name="MAIN_CLASS_NAME" value="assertThrows.assertThrowsDemo" />
-      <option name="METHOD_NAME" value="assertThrowsWithNoMessage" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BSP.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AssumingThatDemo.assumingThatWithNoMessage" />
+        <item itemvalue="JUnit.AssumeTrueDemo.assumeTrueWithMessage (1)" />
+        <item itemvalue="JUnit.AssumeTrueDemo.assumeTrueWithMessage" />
+        <item itemvalue="JUnit.AssumeTrueDemo" />
         <item itemvalue="JUnit.AssumeTrueDemo.assumeTrueWithNoMessage" />
-        <item itemvalue="JUnit.DisabledDemo" />
-        <item itemvalue="JUnit.DisplayNameDemo" />
-        <item itemvalue="JUnit.DisplayNameDemo.displayNameDemoTest" />
-        <item itemvalue="JUnit.assertThrowsDemo.assertThrowsWithNoMessage" />
       </list>
     </recent_temporary>
   </component>
@@ -232,7 +235,7 @@
       <workItem from="1669027874616" duration="10671000" />
       <workItem from="1669123423377" duration="14000" />
       <workItem from="1669128220596" duration="8194000" />
-      <workItem from="1669192148081" duration="310000" />
+      <workItem from="1669192148081" duration="3979000" />
     </task>
     <servers />
   </component>
@@ -255,6 +258,22 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="370" y="16" key="#AssumeTrueDemo.assumeTrueWithMessage" timestamp="1669193519049">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="370" y="16" key="#AssumeTrueDemo.assumeTrueWithMessage/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669193519049" />
+    <state x="370" y="16" key="#AssumeTrueDemo.assumeTrueWithMessage_(1)" timestamp="1669193562095">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="370" y="16" key="#AssumeTrueDemo.assumeTrueWithMessage_(1)/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669193562095" />
+    <state x="370" y="16" key="#AssumeTrueDemo.assumeTrueWithNoMessage" timestamp="1669193327957">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="370" y="16" key="#AssumeTrueDemo.assumeTrueWithNoMessage/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669193327957" />
+    <state x="370" y="16" key="#AssumeTrueDemo.assumeTrueWithNoMessage_(1)" timestamp="1669193554173">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="370" y="16" key="#AssumeTrueDemo.assumeTrueWithNoMessage_(1)/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669193554173" />
     <state x="654" y="275" width="543" height="273" key="#Notifications" timestamp="1668789287063">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -275,10 +294,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="590" y="337" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669131073769" />
-    <state x="524" y="115" key="#xdebugger.evaluate" timestamp="1669190005201">
+    <state x="524" y="115" key="#xdebugger.evaluate" timestamp="1669192830783">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="524" y="115" key="#xdebugger.evaluate/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669190005201" />
+    <state x="524" y="115" key="#xdebugger.evaluate/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669192830783" />
     <state width="403" height="466" key="DebuggerActiveHint" timestamp="1669037460075">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -287,38 +306,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="154" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1668778046851" />
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1669190121558">
+    <state width="1493" height="197" key="GridCell.Tab.0.bottom" timestamp="1669193592530">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669190121558" />
-    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1669190121558">
+    <state width="1493" height="197" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669193592530" />
+    <state width="1493" height="197" key="GridCell.Tab.0.center" timestamp="1669193592529">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669190121558" />
-    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1669190121558">
+    <state width="1493" height="197" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669193592529" />
+    <state width="1493" height="197" key="GridCell.Tab.0.left" timestamp="1669193592529">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669190121558" />
-    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1669190121558">
+    <state width="1493" height="197" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669193592529" />
+    <state width="1493" height="197" key="GridCell.Tab.0.right" timestamp="1669193592529">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669190121558" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1669190121559">
+    <state width="1493" height="197" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669193592529" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1669193567756">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669190121559" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1669190121559">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669193567756" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1669193567755">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669190121559" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1669190121559">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669193567755" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1669193567755">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669190121559" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1669190121559">
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669193567755" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1669193567755">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669190121559" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669193567755" />
     <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1668786724256">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -373,6 +392,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/Assumptions/assumTrueMethod/AssumeTrueDemo.java</url>
           <line>11</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Assumptions/assumTrueMethod/AssumeTrueDemo.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
