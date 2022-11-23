@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7482f38c-faef-4ab2-887e-25f56f78a4f4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Assumptions/assumTrueMethod/AssumeTrueDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/estudandoJUnit5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/estudandoJUnit5.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+        <option value="XML Properties File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="release/0.0.1" />
+                    <option name="lastUsedInstant" value="1668780197" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="develop" />
+                    <option name="lastUsedInstant" value="1668780103" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1668780102" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="JUnit" name="DisabledDemo" />
+    </enabled-run-configurations>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="2Hip8pBfFROtsgpYbX41vesMnPi" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="flattenModules" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.3816092" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dilangue.coxi\Documents\anotações\junit5\estudandoJUnit5" />
+      <recent name="C:\Users\dilangue.coxi\Documents\anotações\junit5\estudandoJUnit5\src" />
+      <recent name="C:\Users\dilangue.coxi\Documents\anotações\junit5\estudandoJUnit5\src\main" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.AssumeTrueDemo.assumeTrueWithNoMessage">
+    <configuration name="AssumeTrueDemo.assumeTrueWithNoMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="estudandoJUnit5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Assumptions.assumTrueMethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Assumptions.assumTrueMethod" />
+      <option name="MAIN_CLASS_NAME" value="Assumptions.assumTrueMethod.AssumeTrueDemo" />
+      <option name="METHOD_NAME" value="assumeTrueWithNoMessage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DisabledDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="estudandoJUnit5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Disable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Disable" />
+      <option name="MAIN_CLASS_NAME" value="Disable.DisabledDemo" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DisplayNameDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="estudandoJUnit5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="displayName.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="displayName" />
+      <option name="MAIN_CLASS_NAME" value="displayName.DisplayNameDemo" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DisplayNameDemo.displayNameDemoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="estudandoJUnit5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="displayName.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="displayName" />
+      <option name="MAIN_CLASS_NAME" value="displayName.DisplayNameDemo" />
+      <option name="METHOD_NAME" value="displayNameDemoTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="assertThrowsDemo.assertThrowsWithNoMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="estudandoJUnit5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="assertThrows.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="assertThrows" />
+      <option name="MAIN_CLASS_NAME" value="assertThrows.assertThrowsDemo" />
+      <option name="METHOD_NAME" value="assertThrowsWithNoMessage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AssumeTrueDemo.assumeTrueWithNoMessage" />
+        <item itemvalue="JUnit.DisabledDemo" />
+        <item itemvalue="JUnit.DisplayNameDemo" />
+        <item itemvalue="JUnit.DisplayNameDemo.displayNameDemoTest" />
+        <item itemvalue="JUnit.assertThrowsDemo.assertThrowsWithNoMessage" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7482f38c-faef-4ab2-887e-25f56f78a4f4" name="Default Changelist" comment="" />
+      <created>1668777601692</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668777601692</updated>
+      <workItem from="1668777603138" duration="1011000" />
+      <workItem from="1668778696185" duration="17411000" />
+      <workItem from="1669027874616" duration="10671000" />
+      <workItem from="1669123423377" duration="14000" />
+      <workItem from="1669128220596" duration="8194000" />
+      <workItem from="1669192148081" duration="310000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="654" y="275" width="543" height="273" key="#Notifications" timestamp="1668789287063">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="654" y="275" width="543" height="273" key="#Notifications/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1668789287063" />
+    <state x="561" y="271" key="#Scopes" timestamp="1668778186213">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="561" y="271" key="#Scopes/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1668778186213" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1668778462225">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1668778462225" />
+    <state x="399" y="101" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1668777834621">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="399" y="101" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1668777834621" />
+    <state x="590" y="337" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1669131073769">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="590" y="337" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669131073769" />
+    <state x="524" y="115" key="#xdebugger.evaluate" timestamp="1669190005201">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="524" y="115" key="#xdebugger.evaluate/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669190005201" />
+    <state width="403" height="466" key="DebuggerActiveHint" timestamp="1669037460075">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="403" height="466" key="DebuggerActiveHint/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669037460075" />
+    <state x="549" y="154" key="FileChooserDialogImpl" timestamp="1668778046851">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="154" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1668778046851" />
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1669190121558">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669190121558" />
+    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1669190121558">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669190121558" />
+    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1669190121558">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669190121558" />
+    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1669190121558">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669190121558" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1669190121559">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669190121559" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1669190121559">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669190121559" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1669190121559">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669190121559" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1669190121559">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669190121559" />
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1668786724256">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1668786724256" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1669037172747">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669037172747" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1669026993031">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669026993031" />
+    <state x="540" y="234" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1668783818159">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="540" y="234" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1668783818159" />
+    <state x="1920" y="0" width="881" height="562" maximized="true" key="dock-window-1" timestamp="1669028783847">
+      <screen x="1920" y="0" width="1280" height="920" />
+    </state>
+    <state x="1920" y="0" width="881" height="562" maximized="true" key="dock-window-1/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669028783847" />
+    <state x="479" y="145" width="578" height="534" key="find.popup" timestamp="1668782597022">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="479" y="145" width="578" height="534" key="find.popup/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1668782597022" />
+    <state x="209" y="66" key="new project wizard" timestamp="1668781991857">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="209" y="66" key="new project wizard/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1668781991857" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1668784934064">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1668784934064" />
+    <state x="425" y="66" width="670" height="676" key="search.everywhere.popup" timestamp="1669134778540">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="66" width="670" height="676" key="search.everywhere.popup/0.0.1536.824/1920.0.1280.920@0.0.1536.824" timestamp="1669134778540" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/anotation/assertArrays/AssertArrayDemo.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/BookStrore/service/BookService.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Assumptions/assumTrueMethod/AssumeTrueDemo.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="listener" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

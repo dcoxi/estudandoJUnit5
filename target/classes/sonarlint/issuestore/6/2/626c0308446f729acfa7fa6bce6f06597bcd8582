@@ -1,0 +1,7 @@
+
+J
+java:S3740"/Provide the parametrized type for this generic.(Ü’ãøÿÿÿÿ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(É”¾ç
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ƒç˜Åûÿÿÿÿ
+S
+java:S1128	"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ
