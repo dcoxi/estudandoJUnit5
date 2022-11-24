@@ -1,0 +1,10 @@
+Nesse modo, o JUnit cria uma nova instância da classe de teste antes da execução de cada método de test.
+  -> JUnit5 possui muitos métodos de ciclos de vida associados com a classe de test.
+  -> Alguns dos ganchos do ciclos de vida são:
+     -> Construtor
+
+  Os métodos são anotados com:
+     -> @BeforeAll
+     -> @AfterAll
+     -> @BeforeEach
+     -> @AfterEach.

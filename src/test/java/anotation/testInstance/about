@@ -6,3 +6,4 @@
  da classe de test antes de executar cada método de test.
   - @TestInstance(Lifecycle.PER_CLASS)  - neste modo o JUnit cria uma nova instância da classe de test uma
   única vez.
+
