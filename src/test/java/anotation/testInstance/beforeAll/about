@@ -1,0 +1,9 @@
+@BeforeAll in LifeCycle.PER_METHOD
+
+ - Esta anotação deve ser usada em metódos estáticos na nossa classe de test;
+ - É chamada sempre antes da criação da classe de teste;
+ - Portanto, sendo estático, ele é chamado antes do construtor, método anotado
+ @Test e outros métodos do ciclo de vida;
+ - É chamado apenas uma vez durante o ciclo de vida da classe de teste;
+ - É útil para inicializar recursos estáticos (como conexão de banco de dados,
+ inicialização de servidor etc) que são expancivos para criar durante a invocação de teste.

@@ -1,0 +1,7 @@
+@AfterAll in Lifecycle.PER_METHOD
+
+ - Simular ao BeforeAll, essa anotação de ser usada em métodos estáticos na nossa classe de teste;
+ - Assim, sendo estático, é chamado no final de todos os @Test e outros métodos de ciclo de vida;
+ - É chamado apenas uma vez durante o ciclo de vida da classe de teste;
+ - É útil para liberar recursos estáticos expansivos(como conexão de banco de dados, para servidor etc)
+ que podemos inicializar no método anotado com @BeforeAll.
