@@ -1,0 +1,11 @@
+@TestInstance(Lifecycle.PER_CLASS)
+
+- Neste modo, o JUnit cria uma nova instância da classe de teste apenas uma vez;
+- JUnit 5 possui vários métodos de cíclo de vida associados com uma classe de teste;
+- Alguns desses cíclos de vida podem ser
+    - Constructores;
+    - Metodos anotados com:
+        - @BeforeAll;
+        - AfterAll;
+        - BeforeEach;
+        - AfterEach.

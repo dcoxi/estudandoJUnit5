@@ -118,6 +118,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/anotation/testInstance/per_class/about">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/test/java/anotation/testInstance/per_method/LifeCycleDemo.java">
           <value>
             <set />
