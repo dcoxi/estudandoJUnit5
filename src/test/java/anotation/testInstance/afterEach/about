@@ -1,0 +1,6 @@
+@AfterEach no ciclo de vida PER_METHOD
+
+- Essa anotação deve ser usada no método de instancia sem retorno na nossa classe de teste;
+- É chamado apenas apôs cada um método @Test;
+- É chamado várias vezes dependento do número de métodos @Test presentes na classe de teste;
+- É útil para limpar instância de variaveis e recursos que foram usados durante a execução do método @Test;

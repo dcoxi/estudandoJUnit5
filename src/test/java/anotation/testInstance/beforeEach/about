@@ -1,0 +1,9 @@
+@BeforeEach no ciclo de vida Lifecycle.PER_METHOD
+
+- Deve ser usado e métodos de instância sem retorno na nossa classe de teste;
+- É chamado apenas antes de cada e todo método @Test ;
+- É chamado varias vezes dependendo do número de métodos @Test presente na classe teste;
+- É usado para configurar variavéis de instância e recursos que podem ser usados durante
+a execução do método @Test;
+- Assim, sendo executados toda sempre antes de cada método @Test, ele é usado para evitar
+duplicação de código feita nos métodos @Test.

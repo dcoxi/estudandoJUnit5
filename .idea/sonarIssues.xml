@@ -98,7 +98,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/anotation/testInstance/afterEach/about">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/test/java/anotation/testInstance/beforeAll/about">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/anotation/testInstance/beforeEach/about">
           <value>
             <set />
           </value>
